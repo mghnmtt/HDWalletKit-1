@@ -1,2 +1,2 @@
-github "Boilertalk/secp256k1.swift"
-github "krzyzanowskim/CryptoSwift"
+github "Boilertalk/secp256k1.swift" ~> 0.1.4
+github "krzyzanowskim/CryptoSwift" ~> 1.0.0

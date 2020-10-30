@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1020"
+   LastUpgradeVersion = "1210"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "349220E420F64C6600A59A6F"
-               BuildableName = "libHDWalletKit.a"
+               BlueprintIdentifier = "7E6D3D8D254C749800D29CBE"
+               BuildableName = "HDWalletKit.framework"
                BlueprintName = "HDWalletKit"
                ReferencedContainer = "container:HDWalletKit.xcodeproj">
             </BuildableReference>
@@ -28,9 +28,17 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7E6D3D95254C749900D29CBE"
+               BuildableName = "HDWalletKitTests.xctest"
+               BlueprintName = "HDWalletKitTests"
+               ReferencedContainer = "container:HDWalletKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -42,17 +50,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "349220E420F64C6600A59A6F"
-            BuildableName = "libHDWalletKit.a"
-            BlueprintName = "HDWalletKit"
-            ReferencedContainer = "container:HDWalletKit.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -63,8 +60,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "349220E420F64C6600A59A6F"
-            BuildableName = "libHDWalletKit.a"
+            BlueprintIdentifier = "7E6D3D8D254C749800D29CBE"
+            BuildableName = "HDWalletKit.framework"
             BlueprintName = "HDWalletKit"
             ReferencedContainer = "container:HDWalletKit.xcodeproj">
          </BuildableReference>

@@ -1,0 +1,6 @@
+framework module Pods_HDWalletKit_HDWalletKitTests {
+  umbrella header "Pods-HDWalletKit-HDWalletKitTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
