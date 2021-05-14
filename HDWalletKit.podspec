@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'HDWalletKit'
+  s.name             = 'HDWalletKit1'
   s.version          = '0.3.6'
   s.summary          = 'Hierarchical Deterministic(HD) wallet for cryptocurrencies in Swift'
   
@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
       Simple Swift library for creating HD ([Hierarchical Deterministic Wallets](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)) cryptocurrencies wallets and working with crypto Coins/ERC20 tokens.
                        DESC
 
-  s.homepage         = 'https://github.com/essentiaone/HDWallet.git'
+  s.homepage         = 'https://github.com/mghnmtt/HDWalletKit-1.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
   s.author           = { 'impl' => 'pavlo.bojkoo@gmail.com' }
-  s.source           = { :git => 'https://github.com/essentiaone/HDWallet.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mghnmtt/HDWalletKit-1.git', :tag => s.version.to_s }
 
   s.swift_version= '5'
   s.static_framework  = true
