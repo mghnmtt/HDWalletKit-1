@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.module_name   = "HDWalletKit"
   s.source_files = 'HDWalletKit/**/*.{swift}'
 
-  s.dependency 'secp256k1.swift', '~> 0.1.4'
+  s.dependency 'secp256k1.swift'
   s.dependency 'CryptoSwift'
   
 end
